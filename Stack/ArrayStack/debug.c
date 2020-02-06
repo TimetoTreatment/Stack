@@ -1,10 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "ArrayStack.h"
+#include "Earraystack.h"
 
-void print_functions(void);
+void print_functions(void)
+{
+	char* list[10] = { "push X", "pop","size","isempty","isfull","peek","list","exit", "\0" };
+	char** pc;
 
+	for (pc = list; **pc; pc++)
+	{
+		printf("%s\n", *pc);
+	}
+
+	printf("\n");
+}
 
 void debug(void)
 {
@@ -84,19 +94,4 @@ void debug(void)
 			return;
 		}
 	}
-}
-
-
-void print_functions(void)
-{
-	char* list[10] = { "push X", "pop","size","isempty","isfull","peek","list","exit", "\0" };
-	char** pc;
-
-
-	for (pc = list; **pc; pc++)
-	{
-		printf("%s\n", *pc);
-	}
-
-	printf("\n");
 }

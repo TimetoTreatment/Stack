@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "ArrayStack.h"
+#include "Earraystack.h"
 
 
 void ASiniti(AStack* st, int max)

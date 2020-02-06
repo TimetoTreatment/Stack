@@ -15,18 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ArrayStack.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="debug.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="arraystack.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ArrayStack.h">
+    <ClInclude Include="Earraystack.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
