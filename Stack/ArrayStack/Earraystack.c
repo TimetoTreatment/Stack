@@ -17,6 +17,11 @@ void ASiniti(AStack* st, int max)
 	st->max = max - 1;
 }
 
+void ASclear(AStack* st)
+{
+	st->top = -1;
+}
+
 int ASisEmpty(AStack* st)
 {
 	if (st->top == -1)

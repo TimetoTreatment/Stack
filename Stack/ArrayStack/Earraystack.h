@@ -1,5 +1,5 @@
 //
-// ArrayStack.h
+// ArrayStack Header.
 //
 // Made by (CE) TimetoTreatment.
 //
@@ -31,8 +31,11 @@ typedef struct _ArrayStack
 //
 //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 
-/* Stack initialize */
+/* Initialize Stack */
 void ASiniti(AStack* st, int max);
+
+/* Clear Stack */
+void ASclear(AStack* st);
 
 /* Check whether empty */
 int ASisEmpty(AStack* st);
